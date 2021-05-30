@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+  overflow-x: hidden;
+}
+.nav-item {
+  font-size: 2rem;
+  margin-left: 10rem;
+}
+.navbar-brand {
+  font-size: 2.2rem;
+}
+h5 {
+  font-size: 3rem;
+}
+.card-text {
+  font-size: 2rem;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+.card {
+  border: 0.5rem solid black;
+  border-radius: 5px;
+  width: 25rem;
+  height: 50rem;
+  margin: 1rem;
+}
+.btn {
+  font-size: 1.5rem;
+}
+footer {
+  width: 100vw;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+}
+.abtwrap {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.abt {
+  margin-bottom: 1rem;
+  width: 60%;
+  height: 80%;
+  border: 0.5rem solid black;
+  border-radius: 5px;
+  background-color: ghostwhite;
+  text-align: center;
+  padding: 1rem;
+  word-wrap: break-word;
+}
+#abtpara {
+  font-size: 2rem;
+}
+#MyPhoto {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 16rem;
+  height: 20rem;
+  border: 0.3rem solid black;
+  border-radius: 10px;
+}
+#B {
+  display: none;
+}
+@media (max-width: 1016px) {
+  #V {
+    display: none;
+  }
+  #B {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+  }
+}
+
+.upt-box {
+  font-size: 10px;
+  display: flex;
+  height: 100vh;
+
+  justify-content: space-around;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.upt {
+  padding: 2rem;
+  height: 90%;
+  color: black;
+  text-align: center;
+  word-wrap: break-word;
+  margin: 0.6em;
+  font-size: 1.5em;
+  background-color: ghostwhite;
+  border: 0.09em solid black;
+  box-shadow: 1em 1em black;
+}
+#sites {
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 1.5em;
+}
+#track {
+  justify-self: center;
+  align-self: center;
+  text-decoration: none;
+  color: black;
+}
+#lvt:hover {
+  border: 0.1em solid black;
+  color: white;
+  background-color: rgb(70, 88, 255);
+  box-shadow: 0.1em 0.1em 0.5em black;
+}
+.st {
+  text-decoration: none;
+  color: rgb(24, 78, 255);
+}
+.st:hover {
+  font-size: 1.01em;
+  color: rgb(6, 0, 37);
+}
+#upt-para {
+  text-align: left;
+  margin: 0.9em;
+}
+#upttit {
+  font-size: 5rem;
+}
+.sts-body {
+  font-size: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrap-sts {
+  margin-top: 2rem;
+  border: 0.1em solid black;
+  background-color: ghostwhite;
+  padding: 5em;
+  box-shadow: 1em 1em black;
+}
+#cardBack {
+  font-size: 2.5rem;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+}
